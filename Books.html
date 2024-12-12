@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="" content="">
+    <title>Books</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="jquery-3.7.1.js"></script>
+</head>
+<body dir="rtl">
+    <header>
+        <div class="header-flex">
+            <div class="logo">
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="AboutUs.html" >AboutUs</a></li>
+                    <li><a href="Books.html" >Books</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th> ISBN رمز الكتاب</th>
+                    <th>العنوان</th>
+                    <th> السعر</th>
+                    <th>إظهار التفاصيل</th>
+                    <th>اختيار</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>978-9770916738</td>
+                    <td>موسم الهجرة إلى الشمال</td>
+                    <td>12000 ل.س</td>
+                    <td><input id="check1" class="check" type="checkbox" /></td>
+                    <td><input name="choose" type="radio" /></td>
+                </tr>
+                <tr id="details1" class="hidden">
+                    <td colspan="5">
+                        <div class="details-container">
+                            <ul class="details-list">
+                                <li><h3>الناشر</h3> دار الجيل</li>
+                                <li> <h3>تصنيف الكتاب:</h3> رواية أدبية</li>
+                                <li> 
+                                 <h3> الملخص:</h3>  
+                                 ملخص: رحلة شخصية بين الشرق والغرب
+                                </li>
+                            </ul>
+                            <div class="details-images">
+                                <img src="images/3.PNG" >       
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>978-9953891718</td>
+                    <td>الخبز الحافي</td>
+                    <td>10000 ل.س</td>
+                    <td><input id="check2" class="check" type="checkbox" /></td>
+                    <td><input name="choose" type="radio" /></td>
+                </tr>
+                <tr id="details2" class="hidden">
+                    <td colspan="5">
+                        <div class="details-container">
+                            <ul class="details-list">
+                                <li><h1> الناشر:</h1> دار الساقي</li>
+                                <li> <h3>تصنيف الكتاب: </h3> سيرة ذاتية</li>
+                                <li><h3> الملخص:</h3> 
+                                    حياة شاقة وتجربة شخصية للمؤلف المغربي محمد شكري
+                                   </li>
+                            </ul>
+                           <div class="details-images">
+                                <img src="images/2.PNG" >
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>978-9953451080</td>
+                    <td> هيبتا</td>
+                    <td>8500 ل.س</td>
+                    <td><input id="check3" class="check" type="checkbox" /></td>
+                    <td><input name="choose" type="radio" /></td>
+                </tr>
+                <tr id="details3" class="hidden">
+                    <td colspan="5">
+                        <div class="details-container">
+                            <ul class="details-list">
+                                <li><h3>الناشر</h3>هادي الباجوري.</li>
+                                <li> <h3>تصنيف الكتاب:</h3> بحث فلسفي</li>
+                                <li><h3> الملخص:</h3>رواية هيبتا من هي من الروايات 
+                                    التي حصلت على انتشارٍ واسعٍ، وهي للكاتب ذو الجنسية المصرية محمد صادق،
+                                     وحصلت هذه الرواية المرتبة الأولى، وأصبحت من ضمن الكتب الأكثر بيعًا
+                                    ، وفي سنة 2014 حصلت على اللقب من قبل مكتبات فيرجن ميجا ستورز،
+                                     وألف التي تقع في جمهورية مصر، وقد تم طباعة هذه الرواية 45 طبعة
+                                </li>
+                            </ul>
+                           <div class="details-images">
+                                <img src="images/book3.PNG">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>978-9770916738</td>
+                    <td>الجريمة والعقاب</td>
+                    <td>30000 ل.س</td>
+                    <td><input id="check4" class="check" type="checkbox" /></td>
+                    <td><input name="choose" type="radio" /></td>
+                </tr>
+                <tr id="details4" class="hidden">
+                    <td colspan="5">
+                        <div class="details-container">
+                            <ul class="details-list">
+                                <li> <h3>الناشر:</h3> دار الأدب</li>
+                                <li> <h3>تصنيف الكتاب:</h3> رواية كلاسيكية</li>
+                                <li><h3> الملخص:</h3> تحليل نفسي لجريمة وقصة خلاص</li>
+                            </ul>
+                            <div class="details-images">
+                                <img src="images/1.PNG">
+                              
+                               
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>978-9770915594</td>
+                    <td> كن أنت</td>
+                    <td>10000 ل.س</td>
+                    <td><input id="check5" class="check" type="checkbox" /></td>
+                    <td><input name="choose" type="radio" /></td>
+                </tr>
+                <tr id="details5" class="hidden">
+                    <td colspan="5">
+                        <div class="details-container">
+                            <ul class="details-list">
+                                <li> <h3>الناشر:</h3>دار ملهمون للنشر والتوزيع</li>
+                                <li> <h3>تصنيف الكتاب:</h3>ذاتي</li>
+                                <li><h3> الملخص:</h3>>هذا الكتاب فيه 
+                                    رساله لكل طالب او طالبه في مرحله الثانوية العامة انها ليست آخر 
+                                    الرحله او الطريق وان الحياه تخبئ لنا ما هو أفضل فيما بعد وان
+                                     الحياه تحتاج الي طاقتك انت وليس ما تاخذه من غيرك. وان النجاح
+                                     لا يأتي الا بالمثابره والعزم علي تحطيم ما يواجهنا من مشكلات </li>
+                            </ul>
+                            <div class="details-images">
+                                <img src="images/book5.PNG" >
+                              
+                                
+                                
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="formContainer" style="display: none;">
+            <button type="button" id="closeForm" class="close-button">&times;</button>
+            <form id="propertyForm">
+                <label for="fullName">الاسم الكامل:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter Your FullName" >
+
+                <label for="nationalID">الرقم الوطني:</label>
+                <input type="text" id="nationalID" name="nationalID" required placeholder="Enter Your nationalID" >
+
+                <label for="dob">تاريخ الولادة:</label>
+                <input type="date" id="dob" name="dob"   placeholder="Enter Your date">
+
+                <label for="mobile">رقم الموبايل:</label>
+                <input type="tel" id="mobile" name="mobile"  placeholder="Enter Your mobileNumber">
+
+                <label for="email">الإيميل:</label>
+                <input type="email" id="email" name="email"  placeholder="Enter Your email">              
+
+                <button class="button" type="submit">إرسال</button>
+            </form>
+        </div>
+        <button id="continueButton" class="button">متابعة</button>
+    </main>
+    
+     <script src="jquery-3.7.1.js"></script>
+    <script src="myFunctions.js"></script>
+  
+</body>
+</html>
